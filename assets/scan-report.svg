@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540" role="img" aria-labelledby="title desc">
+  <title id="title">Sample Pink Elephant scan report for a repo called acme-web</title>
+  <desc id="desc">Seven instruction files, 23 findings, 4 files load every session. Ranked table: AGENTS.md, .cursor/rules/state.mdc and CLAUDE.md are Fix first; skills/deploy/SKILL.md is Next; .claude/commands/review.md is Later.</desc>
+  <rect width="960" height="540" rx="16" fill="#ffffff"/>
+  <rect x="0.5" y="0.5" width="959" height="539" rx="16" fill="none" stroke="#e3e3e3"/>
+
+  <path d="M0 16 a16 16 0 0 1 16 -16 h928 a16 16 0 0 1 16 16 v24 h-960 z" fill="#f4f4f5"/>
+  <circle cx="24" cy="20" r="6" fill="#ff5f57"/>
+  <circle cx="44" cy="20" r="6" fill="#febc2e"/>
+  <circle cx="64" cy="20" r="6" fill="#28c840"/>
+  <text x="480" y="25" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#71717a">/pink-elephant scan</text>
+
+  <g font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif">
+    <text x="32" y="82" font-size="21" font-weight="700" fill="#18181b">Pink Elephant scan: acme-web</text>
+    <text x="32" y="108" font-size="14" font-weight="600" fill="#52525b">7 instruction files &#183; 23 findings &#183; 4 files load every session</text>
+
+    <rect x="24" y="126" width="912" height="30" rx="6" fill="#f4f4f5"/>
+    <g font-size="12" font-weight="700" fill="#52525b">
+      <text x="36" y="146">#</text>
+      <text x="60" y="146">File</text>
+      <text x="282" y="146">Loads</text>
+      <text x="360" y="146">Ex&#183;Em&#183;Fr&#183;Ir</text>
+      <text x="452" y="146">Worst line</text>
+      <text x="768" y="146">Severity</text>
+      <text x="858" y="146">Verdict</text>
+    </g>
+
+    <g font-size="13" fill="#27272a">
+      <text x="36" y="182">1</text>
+      <text x="60" y="182" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">AGENTS.md</text>
+      <text x="282" y="182">always</text>
+      <text x="360" y="182" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">4&#183;3&#183;1&#183;2</text>
+      <text x="452" y="182">L9 &#8220;NEVER use npm. NEVER EVER. Seriously.&#8221;</text>
+      <circle cx="774" cy="178" r="5" fill="#e5484d"/><text x="784" y="182">High</text>
+      <text x="858" y="182" font-weight="700" fill="#b42318">Fix first</text>
+      <line x1="24" y1="196" x2="936" y2="196" stroke="#efefef"/>
+
+      <text x="36" y="218">2</text>
+      <text x="60" y="218" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">.cursor/rules/state.mdc</text>
+      <text x="282" y="218">always</text>
+      <text x="360" y="218" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">2&#183;0&#183;0&#183;1</text>
+      <text x="452" y="218">L3 &#8220;We dropped Redux, so don&#8217;t import it&#8221;</text>
+      <circle cx="774" cy="214" r="5" fill="#e5484d"/><text x="784" y="218">High</text>
+      <text x="858" y="218" font-weight="700" fill="#b42318">Fix first</text>
+      <line x1="24" y1="232" x2="936" y2="232" stroke="#efefef"/>
+
+      <text x="36" y="254">3</text>
+      <text x="60" y="254" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">CLAUDE.md</text>
+      <text x="282" y="254">always</text>
+      <text x="360" y="254" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">3&#183;0&#183;2&#183;0</text>
+      <text x="452" y="254">L22 &#8220;Be a reviewer, not a rewriter&#8221;</text>
+      <circle cx="774" cy="250" r="5" fill="#f76b15"/><text x="784" y="254">Medium</text>
+      <text x="858" y="254" font-weight="700" fill="#b42318">Fix first</text>
+      <line x1="24" y1="268" x2="936" y2="268" stroke="#efefef"/>
+
+      <text x="36" y="290">4</text>
+      <text x="60" y="290" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">skills/deploy/SKILL.md</text>
+      <text x="282" y="290">on demand</text>
+      <text x="360" y="290" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">2&#183;1&#183;0&#183;0</text>
+      <text x="452" y="290">L41 &#8220;IMPORTANT: do not skip the canary&#8221;</text>
+      <circle cx="774" cy="286" r="5" fill="#f76b15"/><text x="784" y="290">Medium</text>
+      <text x="858" y="290" fill="#52525b">Next</text>
+      <line x1="24" y1="304" x2="936" y2="304" stroke="#efefef"/>
+
+      <text x="36" y="326">5</text>
+      <text x="60" y="326" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">.claude/commands/review.md</text>
+      <text x="282" y="326">on demand</text>
+      <text x="360" y="326" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">1&#183;0&#183;1&#183;0</text>
+      <text x="452" y="326">L6 &#8220;Don&#8217;t nitpick&#8221;</text>
+      <circle cx="774" cy="322" r="5" fill="#ffc53d"/><text x="784" y="326">Low</text>
+      <text x="858" y="326" fill="#52525b">Later</text>
+    </g>
+
+    <text x="32" y="358" font-size="11.5" fill="#71717a">Ex: exclusions &#183; Em: emphasis &#183; Fr: framing &#183; Ir: irrelevance</text>
+
+    <text x="32" y="394" font-size="15" font-weight="700" fill="#18181b">Fix first</text>
+    <g font-size="13" fill="#27272a">
+      <text x="32" y="420"><tspan font-weight="600">1. AGENTS.md:</tspan> the npm rule is shouted three times in a file every session reads, which keeps npm in focus.</text>
+      <text x="32" y="444"><tspan font-weight="600">2. .cursor/rules/state.mdc:</tspan> an always-apply rule still names Redux, a library the project removed.</text>
+      <text x="32" y="468"><tspan font-weight="600">3. CLAUDE.md:</tspan> five &#8220;X, not Y&#8221; contrasts and bans load on every task.</text>
+    </g>
+    <text x="32" y="502" font-size="12.5" fill="#71717a">Clean: .github/copilot-instructions.md, .claude/agents/triage.md</text>
+    <text x="32" y="524" font-size="12.5" fill="#71717a">Next: run /pink-elephant AGENTS.md for the full audit with rewrites, or reply &#8220;audit the top 3&#8221;.</text>
+  </g>
+</svg>

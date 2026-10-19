@@ -1,0 +1,21 @@
+{
+  "name": "pink-elephant",
+  "interface": {
+    "displayName": "Pink Elephant"
+  },
+  "plugins": [
+    {
+      "name": "pink-elephant",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/shahshrey/pink-elephant.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

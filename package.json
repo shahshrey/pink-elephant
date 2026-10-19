@@ -1,0 +1,27 @@
+{
+  "name": "pink-elephant",
+  "version": "1.0.0",
+  "description": "Audits prompts, skills, rules, CLAUDE.md and AGENTS.md files for pink-elephant patterns and rewrites them as positive instructions.",
+  "keywords": ["pi-package", "pi", "skills", "agent-skills", "prompts", "prompt-engineering", "agents-md"],
+  "license": "MIT",
+  "author": {
+    "name": "Shrey Shah",
+    "url": "https://github.com/shahshrey"
+  },
+  "homepage": "https://github.com/shahshrey/pink-elephant",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shahshrey/pink-elephant.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shahshrey/pink-elephant/issues"
+  },
+  "files": [
+    "AGENTS.md",
+    "skills/",
+    "LICENSE"
+  ],
+  "pi": {
+    "skills": ["./skills"]
+  }
+}

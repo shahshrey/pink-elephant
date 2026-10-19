@@ -1,0 +1,4 @@
+description = "Audit instruction text for pink-elephant patterns and rewrite it as positive instructions"
+prompt = """Run the pink-elephant skill on the arguments below. Load the skill and follow its SKILL.md from start to finish. When the first word is `lite` or `scan`, run that mode as SKILL.md describes.
+
+Arguments: {{args}}"""

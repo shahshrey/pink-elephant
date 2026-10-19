@@ -1,0 +1,8 @@
+interface:
+  display_name: "Pink Elephant"
+  short_description: "Rewrite prompt prohibitions as positive instructions"
+  brand_color: "#FF69B4"
+  default_prompt: "Audit AGENTS.md for pink-elephant patterns."
+
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,17 @@
+{
+  "name": "pink-elephant",
+  "version": "1.0.0",
+  "description": "Audits prompts, skills, rules, CLAUDE.md and AGENTS.md files for pink-elephant patterns and rewrites them as positive instructions.",
+  "author": {
+    "name": "Shrey Shah",
+    "url": "https://github.com/shahshrey"
+  },
+  "homepage": "https://github.com/shahshrey/pink-elephant",
+  "license": "MIT",
+  "interface": {
+    "displayName": "Pink Elephant",
+    "shortDescription": "Rewrite prompt prohibitions as positive instructions"
+  },
+  "skills": "./skills/",
+  "systemPromptPath": "./AGENTS.md"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "pink-elephant",
+  "owner": {
+    "name": "Shrey Shah"
+  },
+  "metadata": {
+    "description": "Audits prompts, skills, rules, CLAUDE.md and AGENTS.md files for pink-elephant patterns and rewrites them as positive instructions.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "pink-elephant",
+      "source": "./",
+      "description": "Audits prompts, skills, rules, CLAUDE.md and AGENTS.md files for pink-elephant patterns and rewrites them as positive instructions.",
+      "version": "1.0.0"
+    }
+  ]
+}

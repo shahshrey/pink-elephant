@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 500" width="960" height="500" role="img" aria-labelledby="title desc">
+  <title id="title">How often the answer mentioned the forbidden thing</title>
+  <desc id="desc">All 8 scenarios: 25% of answers with the prohibition, 2% with the Pink Elephant rewrite. CLAUDE.md banning the legacy fetchJson helper: 0% with no guidance, 83% with the prohibition, 0% with the rewrite. CLAUDE.md banning console.log while the user asks for debugging: 100% with no guidance, 97% with the prohibition, 0% with the rewrite.</desc>
+  <rect width="960" height="500" rx="18" fill="#fafafa"/>
+  <rect x="20" y="20" width="920" height="460" rx="14" fill="#ffffff" stroke="#e5e5e5"/>
+
+  <g font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif">
+    <text x="44" y="58" font-size="20" font-weight="700" fill="#1f1f1f">How often the answer mentioned the forbidden thing</text>
+    <text x="44" y="82" font-size="13" fill="#666">Claude Sonnet 5.5 &#183; 30 samples per bar, 240 for the overall rows</text>
+
+    <g font-size="13" fill="#555">
+      <rect x="640" y="70" width="12" height="12" rx="3" fill="#a1a1aa"/><text x="658" y="81">No guidance</text>
+      <rect x="745" y="70" width="12" height="12" rx="3" fill="#d92d20"/><text x="763" y="81">Prohibition</text>
+      <rect x="845" y="70" width="12" height="12" rx="3" fill="#ec4899"/><text x="863" y="81">Rewrite</text>
+    </g>
+
+    <text x="44" y="122" font-size="15" font-weight="600" fill="#1f1f1f">All 8 scenarios</text>
+    <g font-size="14" fill="#444">
+      <text x="44" y="149">Prohibition</text>
+      <rect x="200" y="134" width="150" height="22" rx="4" fill="#d92d20"/>
+      <text x="360" y="150" font-weight="600" fill="#1f1f1f">25% <tspan font-weight="400" fill="#888">(60/240)</tspan></text>
+      <text x="44" y="179">Rewrite</text>
+      <rect x="200" y="164" width="12" height="22" rx="4" fill="#ec4899"/>
+      <text x="222" y="180" font-weight="600" fill="#1f1f1f">2% <tspan font-weight="400" fill="#888">(5/240)</tspan></text>
+    </g>
+
+    <text x="44" y="226" font-size="15" font-weight="600" fill="#1f1f1f">CLAUDE.md bans the legacy fetchJson helper</text>
+    <g font-size="14" fill="#444">
+      <text x="44" y="253">No guidance</text>
+      <rect x="200" y="238" width="3" height="22" rx="1.5" fill="#a1a1aa"/>
+      <text x="213" y="254" font-weight="600" fill="#1f1f1f">0% <tspan font-weight="400" fill="#888">(0/30)</tspan></text>
+      <text x="44" y="283">Prohibition</text>
+      <rect x="200" y="268" width="500" height="22" rx="4" fill="#d92d20"/>
+      <text x="710" y="284" font-weight="600" fill="#1f1f1f">83% <tspan font-weight="400" fill="#888">(25/30)</tspan></text>
+      <text x="44" y="313">Rewrite</text>
+      <rect x="200" y="298" width="3" height="22" rx="1.5" fill="#ec4899"/>
+      <text x="213" y="314" font-weight="600" fill="#1f1f1f">0% <tspan font-weight="400" fill="#888">(0/30)</tspan></text>
+    </g>
+
+    <text x="44" y="360" font-size="15" font-weight="600" fill="#1f1f1f">CLAUDE.md bans console.log, user asks for debugging</text>
+    <g font-size="14" fill="#444">
+      <text x="44" y="387">No guidance</text>
+      <rect x="200" y="372" width="600" height="22" rx="4" fill="#a1a1aa"/>
+      <text x="810" y="388" font-weight="600" fill="#1f1f1f">100% <tspan font-weight="400" fill="#888">(30/30)</tspan></text>
+      <text x="44" y="417">Prohibition</text>
+      <rect x="200" y="402" width="580" height="22" rx="4" fill="#d92d20"/>
+      <text x="790" y="418" font-weight="600" fill="#1f1f1f">97% <tspan font-weight="400" fill="#888">(29/30)</tspan></text>
+      <text x="44" y="447">Rewrite</text>
+      <rect x="200" y="432" width="3" height="22" rx="1.5" fill="#ec4899"/>
+      <text x="213" y="448" font-weight="600" fill="#1f1f1f">0% <tspan font-weight="400" fill="#888">(0/30)</tspan></text>
+    </g>
+  </g>
+</svg>

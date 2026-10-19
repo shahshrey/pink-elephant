@@ -1,0 +1,20 @@
+{
+  "name": "pink-elephant",
+  "description": "Audits prompts, skills, rules, CLAUDE.md and AGENTS.md files for pink-elephant patterns and rewrites them as positive instructions.",
+  "owner": {
+    "name": "Shrey Shah",
+    "url": "https://github.com/shahshrey"
+  },
+  "plugins": [
+    {
+      "name": "pink-elephant",
+      "version": "1.0.0",
+      "description": "Audits prompts, skills, rules, CLAUDE.md and AGENTS.md files for pink-elephant patterns and rewrites them as positive instructions.",
+      "source": "./",
+      "category": "productivity",
+      "tags": ["prompts", "skills", "prompt-engineering", "agents-md", "claude-md", "rules"],
+      "commands": "commands/",
+      "skills": "skills/"
+    }
+  ]
+}

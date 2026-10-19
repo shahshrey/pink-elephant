@@ -1,0 +1,6 @@
+name: pink-elephant
+version: 1.0.0
+description: Audits prompts, skills, rules, CLAUDE.md and AGENTS.md files for pink-elephant patterns and rewrites them as positive instructions.
+author: Shrey Shah
+provides_skills:
+  - pink-elephant

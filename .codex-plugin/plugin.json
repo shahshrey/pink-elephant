@@ -1,0 +1,29 @@
+{
+  "name": "pink-elephant",
+  "version": "1.0.0",
+  "description": "Audits prompts, skills, rules, CLAUDE.md and AGENTS.md files for pink-elephant patterns and rewrites them as positive instructions.",
+  "author": {
+    "name": "Shrey Shah",
+    "url": "https://github.com/shahshrey"
+  },
+  "homepage": "https://github.com/shahshrey/pink-elephant",
+  "repository": "https://github.com/shahshrey/pink-elephant",
+  "license": "MIT",
+  "keywords": ["prompts", "skills", "prompt-engineering", "agents-md", "claude-md", "rules"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Pink Elephant",
+    "shortDescription": "Rewrite prompt prohibitions as positive instructions",
+    "longDescription": "Finds instructions that name the thing they want gone, rewrites them as positive targets, and checks the rewrite for leaks with parallel subagents.",
+    "developerName": "Shrey Shah",
+    "category": "Productivity",
+    "capabilities": ["Instructions"],
+    "websiteURL": "https://github.com/shahshrey/pink-elephant",
+    "defaultPrompt": [
+      "$pink-elephant AGENTS.md",
+      "$pink-elephant lite this system prompt",
+      "$pink-elephant scan"
+    ],
+    "brandColor": "#FF69B4"
+  }
+}

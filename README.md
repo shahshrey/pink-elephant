@@ -10,7 +10,7 @@
   <a href="https://github.com/shahshrey/pink-elephant/stargazers"><img src="https://img.shields.io/github/stars/shahshrey/pink-elephant?style=flat&color=ff69b4" alt="GitHub stars"></a>
   <a href="https://github.com/shahshrey/pink-elephant/releases"><img src="https://img.shields.io/github/v/release/shahshrey/pink-elephant?color=ff69b4" alt="Latest release"></a>
   <a href="INSTALL.md"><img src="https://img.shields.io/badge/works%20with-34%20agents-ff69b4" alt="Works with 34 agents: 27 run the audit, 7 more load the companion rule"></a>
-  <a href="https://skills.sh"><img src="https://img.shields.io/badge/skills.sh-npx%20skills%20add-black" alt="Install with the skills CLI"></a>
+  <a href="https://skills.sh/shahshrey/pink-elephant"><img src="https://skills.sh/b/shahshrey/pink-elephant" alt="skills.sh installs"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-ff69b4" alt="MIT license"></a>
 </p>
 
